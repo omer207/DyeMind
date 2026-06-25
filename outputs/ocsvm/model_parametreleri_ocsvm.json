@@ -1,0 +1,25 @@
+{
+  "model": "One-Class SVM",
+  "kernel": "rbf",
+  "nu": 0.05,
+  "gamma": "scale",
+  "window_size": 30,
+  "n_features": 210,
+  "anomaly_score": "-decision_function (yüksek = anomali)",
+  "best_threshold": 4.473092,
+  "roc_auc": 1.0,
+  "avg_precision": 1.0,
+  "n_support_vectors": 246,
+  "n_train_samples": 1964,
+  "n_sensors": 7,
+  "sensor_names": [
+    "AK Sıcaklığı",
+    "BK1 Sıcaklığı",
+    "BK2 Sıcaklık",
+    "AK Seviyesi",
+    "İletkenlik",
+    "BK1 Seviyesi",
+    "BK2 Seviyesi"
+  ],
+  "top_sensor_anom": "BK1 Sıcaklığı"
+}

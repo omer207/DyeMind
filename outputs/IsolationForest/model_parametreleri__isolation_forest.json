@@ -1,0 +1,19 @@
+{
+  "window_size": 30,
+  "n_estimators": 300,
+  "contamination": 0.05,
+  "best_threshold": 0.5380460492332564,
+  "roc_auc": 0.8611,
+  "avg_precision": 0.8774,
+  "n_train_samples": 1964,
+  "n_sensors": 7,
+  "sensor_names": [
+    "AK Sıcaklığı",
+    "BK1 Sıcaklığı",
+    "BK2 Sıcaklık",
+    "AK Seviyesi",
+    "İletkenlik",
+    "BK1 Seviyesi",
+    "BK2 Seviyesi"
+  ]
+}

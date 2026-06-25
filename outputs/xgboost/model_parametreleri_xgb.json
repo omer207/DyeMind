@@ -1,0 +1,21 @@
+{
+  "model": "XGBoost MultiOutputRegressor",
+  "window_size": 30,
+  "n_estimators": 300,
+  "anomaly_score": "MAE (mean absolute reconstruction error)",
+  "best_threshold": 248.471708,
+  "roc_auc": 0.7222,
+  "avg_precision": 0.7794,
+  "n_train_samples": 1958,
+  "n_sensors": 7,
+  "sensor_names": [
+    "AK Sıcaklığı",
+    "BK1 Sıcaklığı",
+    "BK2 Sıcaklık",
+    "AK Seviyesi",
+    "İletkenlik",
+    "BK1 Seviyesi",
+    "BK2 Seviyesi"
+  ],
+  "top_shap_sensor": "İletkenlik"
+}
