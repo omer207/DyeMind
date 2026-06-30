@@ -16,11 +16,11 @@ build/
 *.ipynb_checkpoints
 
 # Veri dosyaları (hassas üretim verisi paylaşılmaz)
-# data/raw/
-# data/test/
-# *.xlsx
-# *.xls
-# *.csv
+data/raw/
+data/test/
+*.xlsx
+*.xls
+*.csv
 
 # Model dosyaları (büyük)
 *.pkl
