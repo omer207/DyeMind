@@ -15,14 +15,14 @@ build/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Veri dosyaları (hassas üretim verisi paylaşılmaz)
+# Veri dosyaları 
 data/raw/
 data/test/
-*.xlsx
-*.xls
-*.csv
+.xlsx
+.xls
+.csv
 
-# Model dosyaları (büyük)
+# Model dosyaları 
 *.pkl
 *.joblib
 *.model
