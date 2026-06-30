@@ -18,9 +18,9 @@ build/
 # Veri dosyaları 
 data/raw/
 data/test/
-.xlsx
-.xls
-.csv
+*.xlsx
+*.xls
+*.csv
 
 # Model dosyaları 
 *.pkl
